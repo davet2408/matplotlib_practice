@@ -1,6 +1,8 @@
 from matplotlib import pyplot as plt
 
-print(plt.style.available)
+# print(plt.style.available)
+
+plt.style.use("fivethirtyeight")
 
 # ages for devs x axis
 dev_x = [
